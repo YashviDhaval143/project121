@@ -1,0 +1,240 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <center>
+    <div class="center">
+      <h1>Case Study Between Google Lens and Mobilenet</h1>
+    <span><img src="google lens.png">Google Lens</span>
+    <br>
+    <h2>VS</h2>
+    <br>
+    <label>MobileNet</label>
+    <hr>
+  
+    </div>
+  </center>
+  <center>
+    <div>
+      <label>Output of Google Lens - Spoon</label>
+    </div>
+   <div>
+     <label>Output of Mobilenet - Spoon</label>
+   </div>
+   <br>
+   <div>
+    <label>Result =</label><label></label>
+  </div>
+  <div>
+    <label>Draw = </label><label></label>
+  </div>
+
+  </center>
+    <div>
+      <image src="download.jpg"></image>
+    </div>
+    <hr>
+    <center>
+      <div>
+        <label>Output of Google Lens - Flower vase</label>
+      </div>
+     <div>
+       <label>Output of Mobilenet - Flower vase</label>
+     </div>
+     <br>
+     <div>
+      <label>Result =</label><label></label>
+    </div>
+    <div>
+      <label>Draw = </label><label></label>
+    </div>
+    </center>
+      <div>
+        <image src="download (3).jpg"></image>
+      </div>
+      <hr>
+      <center>
+        <div>
+          <label>Output of Google Lens - Air Conditioner</label>
+        </div>
+       <div>
+         <label>Output of Mobilenet - Air Conditioner</label>
+       </div>
+       <br>
+       <div>
+        <label>Result =</label><label></label>
+      </div>
+      <div>
+        <label>Draw = </label><label></label>
+      </div>
+    
+      </center>
+        <div>
+          <image src="download (2).jpg"></image>
+        </div>
+        <hr>
+        <center>
+          <div>
+            <label>Output of Google Lens - Pen</label>
+          </div>
+         <div>
+           <label>Output of Mobilenet - Pen</label>
+         </div>
+         <br>
+         <div>
+          <label>Result =</label><label></label>
+        </div>
+        <div>
+          <label>Draw = </label><label></label>
+        </div>
+      
+        </center>
+          <div>
+            <image src="download (1).jpg"></image>
+          </div>
+          <hr>
+          <center>
+            <div>
+              <label>Output of Google Lens - book</label>
+            </div>
+           <div>
+             <label>Output of Mobilenet - book</label>
+           </div>
+           <br>
+           <div>
+            <label>Result =</label><label></label>
+          </div>
+          <div>
+            <label>Draw = </label><label></label>
+          </div>
+        
+          </center>
+            <div>
+              <image src="Gutenberg_Bible,_Lenox_Copy,_New_York_Public_Library,_2009._Pic_01.jpg"></image>
+            </div>
+            <hr>
+            <center>
+              <div>
+                <label>Output of Google Lens - Bed</label>
+              </div>
+             <div>
+               <label>Output of Mobilenet - Bed</label>
+             </div>
+             <br>
+             <div>
+              <label>Result =</label><label></label>
+            </div>
+            <div>
+              <label>Draw = </label><label></label>
+            </div>
+          
+            </center>
+              <div>
+                <image src="beds-bag-500x500.jpg"></image>
+              </div>
+              <hr>
+              <center>
+                <div>
+                  <label>Output of Google Lens - Soft Toy</label>
+                </div>
+               <div>
+                 <label>Output of Mobilenet - Soft Toy</label>
+               </div>
+               <br>
+               <div>
+                <label>Result =</label><label></label>
+              </div>
+              <div>
+                <label>Draw = </label><label></label>
+              </div>
+            
+              </center>
+                <div>
+                  <image src="1-serious-octopus-9902107gf-B.webp"></image>
+                </div>
+                <hr>
+                <center>
+                  <div>
+                    <label>Output of Google Lens - Laptop</label>
+                  </div>
+                 <div>
+                   <label>Output of Mobilenet - Laptop</label>
+                 </div>
+                 <br>
+                 <div>
+                  <label>Result =</label><label></label>
+                </div>
+                <div>
+                  <label>Draw = </label><label></label>
+                </div>
+              
+                </center>
+                  <div>
+                    <image src="Laptop.jpg"></image>
+                  </div>
+                  <hr>
+                  <center>
+                    <div>
+                      <label>Output of Google Lens - Computer</label>
+                    </div>
+                   <div>
+                     <label>Output of Mobilenet - Computer</label>
+                   </div>
+                   <br>
+                   <div>
+                    <label>Result =</label><label></label>
+                  </div>
+                  <div>
+                    <label>Draw = </label><label></label>
+                  </div>
+                
+                  </center>
+                    <div>
+                      <image src="computer.jpg"></image>
+                    </div>
+                    <hr>
+                    <center>
+                      <div>
+                        <label>Output of Google Lens - Television</label>
+                      </div>
+                     <div>
+                       <label>Output of Mobilenet - Television</label>
+                     </div>
+                     <br>
+                     <div>
+                      <label>Result =</label><label></label>
+                    </div>
+                    <div>
+                      <label>Draw = </label><label></label>
+                    </div>
+                  
+                    </center>
+                      <div>
+                        <image src = "television.jpg"></image>
+                      </div>
+                      <hr>
+                      <h5 class = "col-sm-4 col-xs-12 ">
+                        Output on <b>GOOGLE LENS</b>-
+                        <span> </span>
+                      </h5>
+                      <h5 class = "col-sm-4 col-xs-12 ">
+                        Output on <b>MOBILENET MODEL</b>-
+                        <span> </span>
+                      </h5>
+                      <div class = "mini_result col-xs-12 ">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4> </h4>
+                      </div>
+</body>
+</html>
